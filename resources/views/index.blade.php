@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="alert alert-info" role="alert">
-            게시판 목록을 limit 이 10 인 pagination 을 이용하여 완성해주세요.
+            게시판 목록을 size 가 10 인 pagination 을 이용하여 완성해주세요.
         </div>
         <table class="table table-hover">
             <thead>
@@ -24,7 +24,7 @@
                 <td>Jacob</td>
                 <td>Thornton</td>
             </tr>
-            <tr>
+            <tr onclick="location.href='{{ route('board.show', 3) }}'">
                 <th scope="row">3</th>
                 <td>Larry</td>
                 <td>the Bird</td>

@@ -26,15 +26,15 @@
             </div>
             <p class="form-control" aria-label="With textarea">contents</p>
         </div>
-
         <br/>
 
         <div class="alert alert-info" role="alert">
-            게시판의 수정 기능을 완성해주세요.
+            게시판의 수정, 삭제 기능을 완성해주세요. (게시판의 작성자만 가능하도록 해주세요)
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
-            <a class="btn btn-primary" href="{{ route('board.edit', 1) }}">수정</a>
             <a class="btn btn-secondary" href="{{ route('board.index') }}">목록</a>
+            <button type="button" class="btn btn-primary">수정</button>
+            <button type="button" class="btn btn-danger">삭제</button>
         </div>
         <br/>
         <br/>

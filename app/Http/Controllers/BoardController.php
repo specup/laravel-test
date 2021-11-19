@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
-
 class BoardController extends Controller
 {
     /**

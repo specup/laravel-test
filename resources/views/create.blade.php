@@ -32,8 +32,8 @@
 
             <br/>
             <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="submit" class="btn btn-primary">작성하기</button>
                 <a class="btn btn-secondary" href="{{ route('board.index') }}">목록</a>
+                <button type="submit" class="btn btn-primary">작성하기</button>
             </div>
         </form>
     </div>
