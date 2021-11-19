@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\User;
+
+class BoardController extends Controller
+{
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    public function index()
+    {
+        return view('index');
+    }
+
+    public function create()
+    {
+        return view('create');
+    }
+
+    public function show()
+    {
+        return view('show');
+    }
+}
