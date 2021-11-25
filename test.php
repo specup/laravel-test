@@ -1,3 +1,3 @@
 <?
-  echo 'commit test';
+  echo 'commit tests';
 ?>
